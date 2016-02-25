@@ -1,0 +1,16 @@
+{
+  "name": "example-raspberry-pi",
+  "version": "1.0.0",
+  "description": "Example application for connecting a Raspberry PI to the Structure IoT Developer Platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Structure <hello@getstructure.io>",
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "^0.9.26",
+    "raspi-io": "^5.3.0",
+    "structure-sdk-js": "^1.0.3"
+  }
+}
