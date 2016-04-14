@@ -11,6 +11,6 @@
   "dependencies": {
     "johnny-five": "^0.9.26",
     "raspi-io": "^5.3.0",
-    "structure-sdk-js": "^1.0.3"
+    "losant-sdk-js": "^1.2.0"
   }
 }
