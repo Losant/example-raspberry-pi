@@ -1,12 +1,12 @@
 {
   "name": "example-raspberry-pi",
   "version": "1.0.0",
-  "description": "Example application for connecting a Raspberry PI to the Structure IoT Developer Platform.",
+  "description": "Example application for connecting a Raspberry PI to the Losant IoT Developer Platform.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Structure <hello@getstructure.io>",
+  "author": "Losant <hello@losant.com>",
   "license": "MIT",
   "dependencies": {
     "johnny-five": "^0.9.26",
