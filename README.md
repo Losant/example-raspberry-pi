@@ -1,3 +1,3 @@
-# Structure Raspberry PI Example
+# Losant Raspberry PI Example
 
-Example Node.js application that connects a Raspberry PI to the [Structure IoT developer](https://www.getstructure.io) platform. Visit the [Structure documentation](https://docs.getstructure.io/getting-started/boards/getting-started-with-raspberry-pi) for further details.
+Example Node.js application that connects a Raspberry PI to the [Losant IoT developer](https://www.losant.com) platform. Visit the [Losant documentation](https://docs.losant.com/getting-started/boards/getting-started-with-raspberry-pi) for further details.
