@@ -1,6 +1,6 @@
 var five = require('johnny-five');
 var raspi = require('raspi-io');
-var Device = require('losant-sdk-js').Device;
+var Device = require('losant-mqtt').Device;
 
 // Construct Losant device.
 var device = new Device({
