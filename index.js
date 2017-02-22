@@ -18,16 +18,21 @@ var board = new five.Board({
 
 board.on('ready', function() {
 
-  var led = new five.Led('GPIO23');
-  var button = new five.Button('GPIO21');
+  var led = new five.Led('P1-7')
+  var button = new five.Button({
+    pin: 'P1-11',
+    isPullup: true
+  });
 
   button.on('down', function() {
+    console.log('Button pressed')
     // When the button is pressed, send the state to Losant.
     device.sendState({ button: true });
   });
 
   // Listen for commands from Losant.
   device.on('command', function(command) {
+    console.log('Received a command: ' + command.name)
     if(command.name === 'toggle') {
       led.toggle();
     }
